@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "startV2": "node -r dotenv/config indexV2.js",
     "start": "node -r dotenv/config index.js"
   },
   "repository": {
